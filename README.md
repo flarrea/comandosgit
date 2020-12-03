@@ -16,17 +16,26 @@ C:\ionicApps\cursoIonicApps\midemoapp
 1. Publicar
 
 git init
+
 git add .
+
 git commit -m "#01 NombreApp Texto descriptivo de lo que hiciste y subirás"
+
 git remote add origin git@github.com:usuario/nombrerepositorio.git
+
 git push -u origin master
+
 
 2. para actualizar
 
 git add .
+
 git commit -m "#01 NombreApp Texto descriptivo de lo que hiciste y subirás"
+
 git pull
+
 git push -u origin master
+
 
 3. Revisar
 
@@ -39,7 +48,9 @@ git diff
 4.1. Configurar Git
 
 git config --global user.name "name"
+
 git config --global user.email name@dominio.com
+
 
 Si en un proyecto concreto queremos utilizar otro usuario o email, lo que debemos hacer es no añadir la opción --global
 
